@@ -2,7 +2,7 @@ name: release-solution
 # convert solution to managed (using a build PowerPlatform environment for the conversion)
 # upload the solution to the GitHub artifacts and deploy to the PROD environment
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs: 
       #Values are set by the caller
       #caller sample: release-action-call.ymnl
@@ -10,21 +10,25 @@ on:
         description: 'The solution name.'
         type: string
         required: true
+        default: 
       build_environment_url:
         description: 'build environment url.'
         type: string
-        required: true      
+        required: true
+        default: https://org9c09e287.crm.dynamics.com/      
       release_environment_url: 
         description: 'release environment url.'
         type: string
-        required: true      
-    env:
-      SOLUTION_SHIPPING_FOLDER: out/ship/
-      SOLUTION_OUTBOUND_FOLDER: out/solutions/
-      SOLUTION_SOURCE_FOLDER: solutions/
-      SOLUTION_RELEASE_FOLDER: out/release
-      CLIENT_ID: 'b6b976f4-c435-4569-a66f-fa350e28eaa5'
-      TENANT_ID: '9a534261-1ed5-4176-908c-e7b6a448f191'
+        required: true
+        default: https://orgb05f0442.crm.dynamics.com/      
+
+env:
+  SOLUTION_SHIPPING_FOLDER: out/ship/
+  SOLUTION_OUTBOUND_FOLDER: out/solutions/
+  SOLUTION_SOURCE_FOLDER: solutions/
+  SOLUTION_RELEASE_FOLDER: out/release
+  CLIENT_ID: 'b6b976f4-c435-4569-a66f-fa350e28eaa5'
+  TENANT_ID: '9a534261-1ed5-4176-908c-e7b6a448f191'
 
 jobs:
   convert-to-managed:
@@ -73,7 +77,7 @@ jobs:
         name: managedSolutions
         path: ${{ env.SOLUTION_SHIPPING_FOLDER}}/
 
-  release:
+  release-managed:
     needs: [ convert-to-managed ]
     runs-on: windows-latest
     env:
