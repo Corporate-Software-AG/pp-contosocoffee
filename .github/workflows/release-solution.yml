@@ -10,7 +10,7 @@ on:
         description: 'The solution name.'
         type: string
         required: true
-        default: 
+        default: ContosoCoffee
       build_environment_url:
         description: 'build environment url.'
         type: string
