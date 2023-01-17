@@ -15,7 +15,7 @@ on:
         description: 'build environment url.'
         type: string
         required: true
-        default: https://org9c09e287.crm.dynamics.com/      
+        default: https://orgf2832477.crm.dynamics.com/      
       release_environment_url: 
         description: 'release environment url.'
         type: string
