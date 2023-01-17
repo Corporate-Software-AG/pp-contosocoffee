@@ -1,0 +1,16 @@
+name: release-action
+# Call the reusable workflow release-solution-with-inputs.yml
+# Release your solution to prod when you create a new release.
+
+on:
+  release:
+      types: [created]
+      
+jobs:
+  release-solution:
+    uses: ./.github/workflows/release-solution.yml
+    with:
+      #You can specify the solution name here
+      solution_name: ContosoCoffee
+      build_environment_url: https://org9c09e287.crm.dynamics.com/
+      release_environment_url: https://orgb05f0442.crm.dynamics.com/
