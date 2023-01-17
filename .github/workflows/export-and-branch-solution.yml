@@ -9,12 +9,12 @@ on:
       solution_name:
         description: 'name of the solution to worked on from Power Platform'
         required: true
-        default: Contoso Coffee
+        default: ContosoCoffee
       environment_url:
         description: 'url of the environment for export of the solution'
         required: true
         default: https://org9c09e287.crm.dynamics.com
-        
+
 env:
 #edit your values here
   CLIENT_ID: 'b6b976f4-c435-4569-a66f-fa350e28eaa5'
