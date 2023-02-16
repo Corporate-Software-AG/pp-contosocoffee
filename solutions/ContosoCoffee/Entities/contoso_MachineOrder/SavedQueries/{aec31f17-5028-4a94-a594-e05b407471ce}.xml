@@ -12,6 +12,10 @@
         <row name="result" id="contoso_machineorderid">
           <cell name="contoso_machinename" width="300" />
           <cell name="createdon" width="125" />
+          <cell name="contoso_approvalstatus" width="100" />
+          <cell name="contoso_estimatedshipdate" width="100" />
+          <cell name="contoso_price" width="100" />
+          <cell name="statecode" width="100" />
         </row>
       </grid>
     </layoutxml>
@@ -26,6 +30,10 @@
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
+          <attribute name="contoso_approvalstatus" />
+          <attribute name="contoso_estimatedshipdate" />
+          <attribute name="contoso_price" />
+          <attribute name="statecode" />
         </entity>
       </fetch>
     </fetchxml>

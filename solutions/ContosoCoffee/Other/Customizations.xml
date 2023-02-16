@@ -10,8 +10,40 @@
   <OrganizationSettings />
   <optionsets />
   <CustomControls />
+  <AppModuleSiteMaps />
+  <AppModules />
   <EntityDataProviders />
   <CanvasApps />
+  <connectionreferences>
+    <connectionreference connectionreferencelogicalname="contoso_sharedapprovals_18f78">
+      <connectionreferencedisplayname>Approvals ContosoCoffee-18f78</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_approvals</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="contoso_sharedcommondataserviceforapps_77918">
+      <connectionreferencedisplayname>Microsoft Dataverse ContosoCoffee-77918</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="contoso_sharedoffice365_0516c">
+      <connectionreferencedisplayname>Office 365 Outlook ContosoCoffee-0516c</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_office365</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="contoso_sharedteams_7f5e8">
+      <connectionreferencedisplayname>Microsoft Teams ContosoCoffee-7f5e8</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_teams</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+  </connectionreferences>
   <Languages>
     <Language>1033</Language>
   </Languages>

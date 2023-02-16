@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.22113.178" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.23012.180" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>ContosoCoffee</UniqueName>
     <LocalizedNames>
       <LocalizedName description="Contoso Coffee" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.2</Version>
+    <Version>1.0.0.4</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>Contoso</UniqueName>
@@ -79,8 +79,12 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="1" schemaName="contoso_machineorder" behavior="0" />
+      <RootComponent type="1" schemaName="contoso_machineprocurementprocess" behavior="0" />
+      <RootComponent type="29" id="{1b126bb0-e11f-ed11-b83e-000d3a4f8e2a}" behavior="0" />
       <RootComponent type="29" id="{5bd2448b-db1f-ed11-b83e-000d3a4f8e2a}" behavior="0" />
+      <RootComponent type="29" id="{84f83dbc-e51f-ed11-b83e-000d3a4f8e2a}" behavior="0" />
       <RootComponent type="300" schemaName="contoso_machineorderingapp_aee57" behavior="0" />
+      <RootComponent type="62" schemaName="contoso_MachineProcurement" behavior="0" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>
