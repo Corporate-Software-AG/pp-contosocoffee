@@ -15,7 +15,7 @@ on:
         description: 'build environment url.'
         type: string
         required: true
-        default: https://orgf2832477.crm.dynamics.com/      
+        default: https://orgbebd7f09.crm.dynamics.com/      
       release_environment_url: 
         description: 'release environment url.'
         type: string
@@ -27,8 +27,8 @@ env:
   SOLUTION_OUTBOUND_FOLDER: out/solutions/
   SOLUTION_SOURCE_FOLDER: solutions/
   SOLUTION_RELEASE_FOLDER: out/release
-  CLIENT_ID: 'b6b976f4-c435-4569-a66f-fa350e28eaa5'
-  TENANT_ID: '9a534261-1ed5-4176-908c-e7b6a448f191'
+  CLIENT_ID: 'e3ed767b-03ba-4df6-abad-55008c1f697b'
+  TENANT_ID: 'f6114b10-6766-46cf-9acf-661d5509985e'
 
 jobs:
   convert-to-managed:
