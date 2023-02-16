@@ -19,7 +19,7 @@ on:
         description: 'release environment url.'
         type: string
         required: true
-        default: https://orgb05f0442.crm.dynamics.com/      
+        default: https://orgbae66de7.crm.dynamics.com/      
 
 env:
   SOLUTION_SHIPPING_FOLDER: out/ship/
