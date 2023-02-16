@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>contoso_machineorderingapp_aee57</Name>
-  <AppVersion>2023-01-17T21:07:14Z</AppVersion>
+  <AppVersion>2023-02-16T15:33:29Z</AppVersion>
   <Status>Ready</Status>
   <CreatedByClientVersion>3.22081.14.0</CreatedByClientVersion>
   <MinClientVersion>3.22081.14.0</MinClientVersion>
@@ -14,7 +14,7 @@
   <CommitMessage></CommitMessage>
   <Publisher></Publisher>
   <AuthorizationReferences>[]</AuthorizationReferences>
-  <ConnectionReferences>{"0b286260-d1db-4eee-89b6-0699ff61c354":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1611/1.0.1611.3104/office365users/icon.png","dataSources":["Office365Users"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"}}</ConnectionReferences>
+  <ConnectionReferences>{"0b286260-d1db-4eee-89b6-0699ff61c354":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1617/1.0.1617.3171/office365users/icon.png","dataSources":["Office365Users"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"}}</ConnectionReferences>
   <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"Machine Orders":{"entitySetName":"contoso_machineorders","logicalName":"contoso_machineorder"}}}}</DatabaseReferences>
   <CanConsumeAppPass>1</CanConsumeAppPass>
   <CanvasAppType>0</CanvasAppType>
