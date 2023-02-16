@@ -5,7 +5,6 @@ on:
   workflow_dispatch:
     inputs: 
       #Values are set by the caller
-      #caller sample: release-action-call.ymnl
       solution_name:
         description: 'The solution name.'
         type: string
